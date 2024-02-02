@@ -26,6 +26,6 @@ class SimpleNN(nn.Module):
 
 model = SimpleNN()
 #model.print_params()
-x=torch.randn(100,10)
+x=torch.randn(100,10) # batch_size x 10
 
 print(model(x))
